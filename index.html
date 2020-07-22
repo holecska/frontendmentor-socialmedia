@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Social media dashboard</title>
+  <script src="https://kit.fontawesome.com/3ad538c219.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+
+  <header class="header bg-top-light">
+    <div class="header-container">
+      <h1 class="header-container__title text-darkblue-light">Social Media Dashboard</h1>
+      <div class="header-container__followers text-grey-light">Total Followers: 23,004</div>
+      <div class="header-container__toggle text-grey-light">
+        <div class="toggle-mode">Dark Mode</div>
+        <label class="toggle-btn">
+          <input class="myCheckbox" type="checkbox">
+          <span class="slider round toggle-light"></span>
+        </label>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main-container">
+    <div class="card-container">
+
+      <!-- Facebook Followers -->
+      <div class="big-card big-card--facebook bg-card-light">
+        <div class="big-card__socialmedia">
+          <i class="fab fa-facebook-square socialicon facebook-logo"></i>
+          <div class="username text-grey-light">@nathanf</div>
+        </div>
+        <div class="big-card__num text-darkblue-light">1987</div>
+        <div class="big-card__followers text-grey-light">Followers</div>
+        <div class="big-card__day">
+          <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+          <p class="stats__text--green">12 Today</p>
+        </div>
+      </div>
+
+      <!-- Twitter Followers -->
+      <div class="big-card big-card--twitter bg-card-light">
+        <div class="big-card__socialmedia">
+          <i class="fab fa-twitter socialicon twitter-logo"></i>
+          <div class="username text-grey-light">@nathanf</div>
+        </div>
+        <div class="big-card__num text-darkblue-light">1044</div>
+        <div class="big-card__followers text-grey-light">Followers</div>
+        <div class="big-card__day">
+          <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+          <p class="stats__text--green">99 Today</p>
+        </div>
+      </div>
+
+      <!-- Instagram Followers -->
+      <div class="big-card big-card--instagram bg-card-light">
+        <div class="big-card__socialmedia">
+          <i class="fab fa-instagram socialicon instagram-logo"></i>
+          <div class="username text-grey-light">@realnathanf</div>
+        </div>
+        <div class="big-card__num text-darkblue-light">11k</div>
+        <div class="big-card__followers text-grey-light">Followers</div>
+        <div class="big-card__day">
+          <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+          <p class="stats__text--green">1099 Today</p>
+        </div>
+      </div>
+
+      <!-- Youtube Subscribers -->
+      <div class="big-card big-card--youtube bg-card-light">
+        <div class="big-card__socialmedia">
+          <div class="socialicon youtube-logo"><i class="fab fa-youtube youtube-logo__icon"></i></div>
+          <div class="username text-grey-light">Nathan F.</div>
+        </div>
+        <div class="big-card__num text-darkblue-light">8239</div>
+        <div class="big-card__followers text-grey-light">Subscribers</div>
+        <div class="big-card__day">
+          <img src="img/icon-down.svg" alt="Up Icon" class="stats__icon">
+          <p class="stats__text--red">144 Today</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="small-container">
+      <h2 class="small-container__heading text-grey-light">
+        Overview-Today
+      </h2>
+      <!-- FACEBOOK PAGE VIEWS -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Page Views</div>
+          <i class="fab fa-facebook-square socialmedia-small__logo facebook-logo"></i>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">87</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--green">3%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FACEBOOK LIKES -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Likes</div>
+          <i class="fab fa-facebook-square socialmedia-small__logo facebook-logo"></i>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">52</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-down.svg" alt="Down Icon" class="stats__icon">
+            <p class="stats__text stats__text--red">2%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- INSTAGRAMM LIKES -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Likes</div>
+          <i class="fab fa-instagram socialmedia-small__logo instagram-logo"></i>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">5462</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--green">2257%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- INSTAGRAM PROFILE VIEWS -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Profile Views</div>
+          <i class="fab fa-instagram socialmedia-small__logo instagram-logo"></i>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">52k</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--green">1375%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TWITTER RETWEETS -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Retweets</div>
+          <i class="fab fa-twitter socialmedia-small__logo twitter-logo"></i>
+        </div>
+
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">117</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--green">303%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TWITTER LIKES -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Likes</div>
+          <i class="fab fa-twitter socialmedia-small__logo twitter-logo"></i>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">507</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-up.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--green">553%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- YOUTUBE LIKES -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Likes</div>
+          <div class="socialmedia-small__logo youtube-logo"><i class="fab fa-youtube youtube-logo__icon"></i></div>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">107</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-down.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--red">19%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- YOUTUBE VIEWS -->
+      <div class="small-card bg-card-light">
+        <div class="socialmedia-small">
+          <div class="socialmedia-small__activity text-grey-light">Total Views</div>
+          <div class="socialmedia-small__logo youtube-logo"><i class="fab fa-youtube youtube-logo__icon"></i></div>
+        </div>
+        <div class="small-card__statistic">
+          <div class="small-card__statistic--num text-darkblue-light">1407</div>
+          <div class="small-card__statistic--stats">
+            <img src="img/icon-down.svg" alt="Up Icon" class="stats__icon">
+            <p class="stats__text stats__text--red">12%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-top-light text-grey-light">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="footer__link bg-top-light">Frontend Mentor</a><br>
+    Coded by <a href="#" class="footer__link bg-top-light">Adam Holecska</a>
+  </footer>
+
+  <script src="myJS.js"></script>
+</body>
+
+</html>
